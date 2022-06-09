@@ -1,0 +1,82 @@
+:root{
+    --clr-primary: rgb(177, 247, 48);
+    --ff-secondary: "Open Sans", sans-serif;
+    
+
+}
+
+body{
+    background-image: linear-gradient(to bottom,rgb(62, 220, 241), rgb(142, 142, 235));
+    background-repeat: no-repeat;
+    font-family: var(--ff-secondary);
+}
+
+fieldset{
+    border: 3px solid #fff;
+    text-align: center;
+    box-shadow: 0 0px 40px rgb(97, 238, 41);
+    border-radius: 15px;
+    background-color:var(--clr-primary);
+    max-width:80vh;
+    margin: 3cm;
+    margin-left: 30%;
+}
+legend{
+    font: 20pt/1 'arial black';
+    margin: 5px;
+    padding: 0px 10px;
+    color: #fff;
+}
+form{
+    padding: 15px 25px;
+    margin: 0px 2cm;
+    display: flex;
+    flex-direction: column;
+}
+fieldset:hover {
+    transition: 0.5s;
+}
+form > input{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    min-width: 5cm;
+    margin:15px 55px;
+    padding: 9px;
+    text-align: center;
+}
+
+.btn-1{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 7px 22px;
+    color: rgb(0, 0, 0);
+    font-size:medium;
+    margin-left: 20px;
+    margin-right: 0.5cm;
+}
+.reset-1{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    padding: 7px 22px;
+    font-size:medium;
+    margin: 10px 15px;
+}
+.login{
+    text-decoration: none;
+    color: black;
+    text-align: end;
+}
+.btn-1:hover{
+    border: 2px solid rgb(177, 119, 231);
+    background-color: rgb(177, 119, 231);
+    color: #fff;
+}
+.reset-1:hover{
+    border: 2px solid rgb(177, 119, 231);;
+    background-color: rgb(177, 119, 231);
+    color: #fff;}
